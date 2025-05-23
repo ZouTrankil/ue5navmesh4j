@@ -15,17 +15,11 @@
     </properties>
 
     <dependencies>
-        <!-- Recast4j 依赖 -->
+        <!-- 数学库支持 -->
         <dependency>
-            <groupId>org.recast4j</groupId>
-            <artifactId>recast</artifactId>
-            <version>1.5.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.recast4j</groupId>
-            <artifactId>detour</artifactId>
-            <version>1.5.0</version>
+            <groupId>org.joml</groupId>
+            <artifactId>joml</artifactId>
+            <version>1.10.5</version>
         </dependency>
         
         <!-- 测试依赖 -->
